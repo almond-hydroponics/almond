@@ -5,7 +5,14 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "lint": "nx workspace-lint && nx lint",
+    "prettier:fix": "prettier './**/**/*.{tsx,ts}' --write",
+    "eslint:fix": "eslint ./src --fix",
+    "codeStyle:fix": "npm run prettier:fix && npm run eslint:fix",
+    "dep-graph": "nx dep-graph",
+    "help": "nx help",
+    "nx": "nx"
   },
   "private": true,
   "dependencies": {

@@ -2,3 +2,16 @@
 
 /dist
 /coverage
+*.lock
+*.log
+\.build
+\.cache
+\.editorconfig
+.env.local
+\.git
+\.gitignore
+\.ignore
+\.prettierignore
+node_modules
+package.json
+\.next
